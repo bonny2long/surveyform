@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>survey</title>
+  </head>
+  <body>
+    <div id="container">
+      <header id="header">
+        <h1 id="title">How Do You Travel</h1>
+        <p id="description">what's your favorite type of vehicle to use.</p>
+      </header>
+      <form id="survey-form">
+        <label id="name-label" for="name">Name:</label>
+        <input id="name" placeholder="Enter Your Name" type="text" required />
+        <label id="email-label" for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="form-control"
+          placeholder="Enter your Email"
+          required=""
+        />
+        <label id="number-label" for="number">Age:</label>
+        <input
+          type="number"
+          name="age"
+          id="number"
+          min="13"
+          max="99"
+          class="form-control"
+          placeholder="Age"
+        />
+        <p>Choose type of vehicle</p>
+        <select id="dropdown">
+          <option>Select type of vehicle</option>
+          <option>Car</option>
+          <option>Bicycle</option>
+          <option>Motorcycle</option>
+          <option>Boat</option>
+        </select>
+        <p>Would you recomend the way you travel</p>
+        <label>
+          <input
+            name="user-recommend"
+            value="yes"
+            type="radio"
+            class="input-radio"
+            checked=""
+          />
+          Yes</label
+        >
+        <label>
+          <input
+            name="user-recommend"
+            value="no"
+            type="radio"
+            class="input-radio"
+            checked=""
+          />
+          No</label
+        >
+        <label>
+          <input
+            name="user-recommend"
+            value="maybe"
+            type="radio"
+            class="input-radio"
+            checked=""
+          />
+          Maybe</label
+        >
+        <p>What are some reasons you travel this way</p>
+        <label
+          ><input
+            name="preferance"
+            value="cost"
+            type="checkbox"
+            class="input-box"
+          />
+          Cost Efficiency</label
+        >
+        <label
+          ><input
+            name="preferance"
+            value="convenience"
+            type="checkbox"
+            class="input-box"
+          />
+          Convenience</label
+        >
+        <label
+          ><input
+            name="preferance"
+            value="speed"
+            type="checkbox"
+            class="input-box"
+          />
+          Speed</label
+        >
+        <label
+          ><input
+            name="preferance"
+            value="comfort"
+            type="checkbox"
+            class="input-box"
+          />
+          Comfort</label
+        >
+        <label
+          ><input
+            name="preferance"
+            value="enviromental"
+            type="checkbox"
+            class="input-box"
+          />
+          Environmental Concerns</label
+        >
+        <label
+          ><input
+            name="preferance"
+            value="adventure"
+            type="checkbox"
+            class="input-box"
+          />
+          Adventure</label
+        >
+        <label
+          ><input
+            name="preferance"
+            value="culture"
+            type="checkbox"
+            class="input-box"
+          />
+          Cultural Immersion</label
+        >
+        <label
+          ><input
+            name="preferance"
+            value="accessibility"
+            type="checkbox"
+            class="input-box"
+          />
+          Accessibility</label
+        >
+        <div>
+          <p>Would you recommend to someone the way you travel?</p>
+          <textarea
+            id="replies"
+            class="input-text"
+            name="replies"
+            placeholder="Would you recommend your travel style?"
+          ></textarea>
+        </div>
+        <div>
+          <button type="submit" id="submit" class="submit-butt">SUBMIT</button>
+        </div>
+      </form>
+    </div>
+    <footer>
+      <p>
+        &copy;
+        <a href="https://github.com/bonny2long" target="_blank"
+          >Bonny Makaniankhondo</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
